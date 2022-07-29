@@ -27,6 +27,7 @@ body
     padding: 30px 5px;
     border: 1px solid #9e9e9eb8;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /*part tow start here*/
@@ -45,7 +46,10 @@ body
     border: 1px solid #9e9e9ead;
     border-radius: 4px;
 }
-
+.main-image img 
+{
+    height: 410px;
+}
 /*part three start here*/
 .text-and-confirmation
 {
@@ -117,8 +121,8 @@ body
     background-color: #db1e5e;
     border: 1px solid #db1e5e;
     border-radius: 4px;
+    cursor: pointer;
 }
-
 .btn .btn-2 {
     margin: 3px 3px;
     padding: 9px 35px;
@@ -127,13 +131,12 @@ body
     background-color: #efefef;
     border: 1px solid #6161616b;
     border-radius: 4px;
+    cursor: pointer;
 }
-
 .btn .btn-2 i 
 {
     margin-right: 11px;
 }
-
 .btn .btn-1 i {
     margin-right: 11px;
 }
